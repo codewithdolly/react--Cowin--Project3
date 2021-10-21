@@ -8,4 +8,4 @@ function SingleCard() {
     )
 }
 
-export default SingleCard
+export default SingleCard;
