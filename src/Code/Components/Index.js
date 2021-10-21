@@ -1,17 +1,17 @@
 import React from 'react'
-import "./Index.scss"
-import Logo from "./Images/logo.png"
-import GetMethod from './GetMethod/GetMethod'
+// import "./Index.scss"
+import Logo from "../Images/logo.png"
+import Button from '@mui/material/Button';
 
 function Index() {
     return (
         <div>
             <div className="header">
-                <img src={Logo} alt="Logo"/>
+                <img src={Logo} alt="" />
             </div>
-            <GetMethod />
+            <Button variant="contained">Contained</Button>
         </div>
     )
 }
 
-export default Index
+export default Index;
