@@ -1,14 +1,12 @@
-import "./App.scss";
-import Index from "./Code/Components/Index";
+import React from 'react'
+import Button from '@mui/material/Button';
 
-
-
-const App = () => {
+function App() {
   return (
     <div>
-      <Index />
+      <Button variant="text">Text</Button>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
