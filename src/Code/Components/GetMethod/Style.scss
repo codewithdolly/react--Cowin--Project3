@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hospital{
+    background-color: #0e1229;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    
+}
+#hospitalDetails {
+   display: block;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding: 20px;
+   margin-top: 10px;
+   border: 1px solid gray;
+   cursor: pointer;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   box-shadow: 3px 3px 5px rgba(126, 126, 126, 0.527);
+  }

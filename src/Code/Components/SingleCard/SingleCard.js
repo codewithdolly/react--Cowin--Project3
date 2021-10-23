@@ -58,7 +58,7 @@ export default function SingleCard() {
          <b>dose1</b>fee_type <br /><b>dose2</b>fee_type
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         <b>vaccine: </b>vaccineName
+         <b>vaccine: </b>vaccine
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
