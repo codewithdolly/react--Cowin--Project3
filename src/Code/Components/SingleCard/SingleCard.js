@@ -50,12 +50,15 @@ export default function SingleCard() {
         alt="Paella dish"
       />
       <CardContent>
-      <Typography variant="h6" color="text.secondary">Hi</Typography>
+      <Typography variant="h6" color="text.secondary">Name</Typography>
         <Typography variant="body2" color="text.secondary">
-         Hospital details, Hyderabad, 500045
+        address block_name district_name pincode
         </Typography>
         <Typography variant="body2" color="text.secondary">
-         <b>Fee: </b>750
+         <b>dose1</b>fee_type <br /><b>dose2</b>fee_type
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         <b>vaccine: </b>vaccineName
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -76,13 +79,15 @@ export default function SingleCard() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
+          <Typography variant="body2" color="text.secondary">
+         <b>Fee: </b>fee_type
+        </Typography>
+        <Typography paragraph><b>slots: </b> </Typography>
           <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
-            aside for 10 minutes.
+           <b>Min age limit</b>
           </Typography>
-          <Typography>
-            Set aside off of the heat to let rest for 10 minutes, and then serve.
+          <Typography paragraph>
+           <b>Time</b>
           </Typography>
         </CardContent>
       </Collapse>
