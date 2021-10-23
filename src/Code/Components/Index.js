@@ -18,7 +18,6 @@ function Index() {
         <Vaccination />
         <CoWINPartners />
         <Footer />
-        Hi
     </div>
   );
 }
