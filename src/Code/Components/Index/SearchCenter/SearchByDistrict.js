@@ -41,23 +41,23 @@ const district = [
   },
   {
     value: "2",
-    label: "Andhra Pradesh",
+    label: "Karimnagar ",
   },
   {
     value: "3",
-    label: "Assam",
+    label: "Mahabubabad",
   },
   {
     value: "4",
-    label: "Bihar",
+    label: "Nalgonda",
   },
   {
     value: "5",
-    label: "Chandhigadh",
+    label: "Siddipet",
   },
 ];
 
-const SearchByDistrict=()=> {
+const SearchByDistrict = () => {
   const [state1, setState] = useState("0");
   const [district1, setDistrict] = useState("0");
 
@@ -104,12 +104,15 @@ const SearchByDistrict=()=> {
             <option value={option.value}>{option.label}</option>
           ))}
         </TextField>
-        <Button variant="contained"  sx={{ py: 1.7, px: 5, m: 1, borderRadius: 9}}>
+        <Button
+          variant="contained"
+          sx={{ py: 1.7, px: 5, m: 1, borderRadius: 9 }}
+        >
           <b>SEARCH</b>
         </Button>
       </div>
     </Box>
   );
-}
+};
 
-export default  SearchByDistrict;
+export default SearchByDistrict;

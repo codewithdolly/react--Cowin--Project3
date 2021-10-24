@@ -7,7 +7,6 @@ import Box from "@mui/material/Box";
 import SearchCenter3 from "./SearchByDistrict";
 import SearchByPin from "./SearchByPin";
 // import SearchByMap from "./SearchByMap";
-import MapContainer from "./MapContainer";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -84,10 +83,9 @@ const SearchCenter2 = () => {
           <SearchByPin />
         </TabPanel>
         <TabPanel value={value} index={2}>
-          {/* <iframe src="https://www.google.com/maps/@17.4123487,78.4080455,11z" frameborder="0"  width="700"
-            height="400" allowfullscreen=""></iframe> */}
+          <iframe src="https://www.google.com/maps/@17.4123487,78.4080455,11z" frameborder="0"  width="700"
+            height="400" allowfullscreen=""></iframe>
             {/* <SearchByMap /> */}
-            <MapContainer />
         </TabPanel>
       </div>
     </Box>

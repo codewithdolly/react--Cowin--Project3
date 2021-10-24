@@ -1,27 +1,21 @@
-import React, { Component } from "react";
-import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react";
+import React from 'react'
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
-const mapStyles = {
-  width: "100%",
-  height: "100%",
-};
-
-export class SearchByMap extends Component {
-  render() {
+function SearchByMap() {
     return (
-      <Map
+        <div>
+           <Map
         google={this.props.google}
-        zoom={14}
-        style={mapStyles}
-        initialCenter={{
-          lat: -1.2884,
-          lng: 36.8233,
-        }}
-      />
-    );
-  }
+        zoom={8}
+        // style={mapStyles}
+        initialCenter={{ lat: 9.761927, lng: 79.95244 }}
+      >
+        <Marker position={{ lat: 9.761927, lng: 79.95244 }} />
+      </Map>
+        </div>
+    )
 }
 
 export default GoogleApiWrapper({
-  apiKey: "https://www.google.com/maps/@17.4123487,78.4080455,11z",
-})(SearchByMap);
+    apiKey: "AIzaSyAXuXLvhNUOlQ3FcQCTdDJAN7iOnflyfUA",
+  })(SearchByMap);
