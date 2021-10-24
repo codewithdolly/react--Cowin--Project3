@@ -17,9 +17,9 @@ const SearchByPin=()=> {
           id="outlined-password-input"
           label="Enter Your Pin"
           type="number"
-          autoComplete="current-password"
+          autoComplete="current-password"       
         />
-        <Button variant="contained" sx={{ py: 1.7, px: 5, m: 1, borderRadius: 9}}>
+        <Button variant="contained" sx={{ py: 1.7, px: 4, m: 1, borderRadius: 7}}>
           <b>SEARCH</b>
         </Button>
       </div>

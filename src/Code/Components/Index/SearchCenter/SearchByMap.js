@@ -1,10 +1,10 @@
-import React from 'react'
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+import React from "react";
+import { Map, GoogleApiWrapper, Marker } from "google-maps-react";
 
 function SearchByMap() {
-    return (
-        <div>
-           <Map
+  return (
+    <div>
+      <Map
         google={this.props.google}
         zoom={8}
         // style={mapStyles}
@@ -12,10 +12,10 @@ function SearchByMap() {
       >
         <Marker position={{ lat: 9.761927, lng: 79.95244 }} />
       </Map>
-        </div>
-    )
+    </div>
+  );
 }
 
 export default GoogleApiWrapper({
-    apiKey: "AIzaSyAXuXLvhNUOlQ3FcQCTdDJAN7iOnflyfUA",
-  })(SearchByMap);
+  apiKey: "AIzaSyAXuXLvhNUOlQ3FcQCTdDJAN7iOnflyfUA",
+})(SearchByMap);
