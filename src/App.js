@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       {/* <Index /> */}
-      {/* <GetMethod /> */}
-      <PostMethos />
+      <GetMethod />
+      {/* <PostMethos /> */}
 
     </div>
   )
