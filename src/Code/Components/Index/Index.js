@@ -6,6 +6,7 @@ import Home from "./Home/Home";
 import CoWINPartners from "./CoWINPartners/CoWINPartners"
 import Vaccination from "./Vaccination/Vaccination";
 import SingleCard from "./SingleCard/SingleCard";
+import SearchCenter from "./SearchCenter/SearchCenter2";
 
 
 
@@ -14,12 +15,15 @@ function Index() {
     <div>
         <Header />
         <Home />
-        <SingleCard />
+        <SearchCenter />
+        {/* <SingleCard />
         <Vaccination />
-        <CoWINPartners />
+        <CoWINPartners /> */}
         <Footer />
     </div>
   );
 }
 
 export default Index;
+
+

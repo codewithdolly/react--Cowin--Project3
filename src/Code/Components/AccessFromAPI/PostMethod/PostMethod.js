@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Style.scss";
-import Footer from "../../Footer/Footer";
+import Footer from "../../Index/Footer/Footer";
 import { Button } from "@mui/material";
 
 function PostMethod() {

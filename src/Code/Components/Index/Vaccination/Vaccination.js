@@ -1,6 +1,6 @@
 import React from "react";
 import "../Index.scss";
-import map from "../Images/map.png";
+import map from "../../Images/map.png";
 import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";

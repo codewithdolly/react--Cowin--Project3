@@ -1,15 +1,18 @@
 import React from 'react'
-import Index from './Code/Components/Index';
-import GetMethod from './Code/Components/GetMethod/GetMethod';
-import PostMethos from './Code/Components/AccessFromAPI/PostMethod/PostMethod';
+import Index from './Code/Components/Index/Index';
+import { MapContainer } from './Code/Components/Index/SearchCenter/MapContainer';
+// import GetMethod from "./Code/Components/AccessFromAPI/GetMethod/GetMethod"
+// import PostMethos from './Code/Components/AccessFromAPI/PostMethod/PostMethod';
 
 
-function App() {
+const App=()=> {
   return (
     <div>
+<MapContainer />
       {/* <Index /> */}
-      <GetMethod />
+      {/* <GetMethod /> */}
       {/* <PostMethos /> */}
+
     </div>
   )
 }

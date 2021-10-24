@@ -3,7 +3,7 @@ import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { Button } from "@mui/material";
-import Logo from "../Images/logo.png";
+import Logo from "../../Images/logo.png";
 
 const Header = () => {
   const [value, setValue] = React.useState("one");

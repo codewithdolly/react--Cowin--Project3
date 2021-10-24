@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Style.scss";
-import Footer from "../Footer/Footer";
+import Footer from "../../Index/Footer/Footer";
 
 const GetMethod = () => {
   const [post, setPost] = useState([]);
@@ -24,7 +24,7 @@ const GetMethod = () => {
   }, []);
   return (
     <div>
-      <h1 id="hospital"> ✨Hospital Where You Can Take Vaccine ✨</h1>
+      <h1 id="hospital"> Hospital Where You Can Take Vaccine🏥</h1>
       {post.map((obj) => {
         return (
           <div>

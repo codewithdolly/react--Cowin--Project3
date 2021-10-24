@@ -1,6 +1,7 @@
 import React from "react";
+import "../Index.scss"
 import CallIcon from "@mui/icons-material/Call";
-import Image1 from "../Images/1.png";
+import Image1 from "../../Images/1.png";
 
 const Home = () => {
   return (
