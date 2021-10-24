@@ -10,8 +10,8 @@ function App() {
       {/* <Index /> */}
       <GetMethod />
       {/* <PostMethos /> */}
-
     </div>
   )
 }
+
 export default App
