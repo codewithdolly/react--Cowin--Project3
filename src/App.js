@@ -1,12 +1,14 @@
 import "./App.scss";
-import Home from "./05-10-2021/Code/Components/Home/Home";
-import AttendanceSheet from './28-09-2021/Code/Components/AttendanceSheet/AttendanceSheet'
+
+import IndexApp from "./cowin/code/companents/Registration/index1";
 
 const App = () => {
   return (
     <div>
-      <Home />
-      <AttendanceSheet />
+      
+    <IndexApp />
+     
+
     </div>
   );
 };
