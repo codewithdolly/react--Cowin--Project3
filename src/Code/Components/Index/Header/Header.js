@@ -1,12 +1,12 @@
-import * as React from "react";
-// import "../Index.scss";
+import React, {useState} from "react";
+import "../Index.scss";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { Button } from "@mui/material";
 import Logo from "../../Images/logo.png";
 
 const Header = () => {
-  const [value, setValue] = React.useState("one");
+  const [value, setValue] = useState("one");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -16,7 +16,7 @@ const Header = () => {
     <div>
       <div className="header sticky">
         <div>
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Covin logo" />
         </div>
         <div>
           {" "}
@@ -24,7 +24,7 @@ const Header = () => {
             value={value}
             onChange={handleChange}
             textColor="white"
-            indicatorColor="secondary"
+            indicatorColor="primary"
             aria-label="secondary tabs example"
           >
             <Tab value="one" label="VACCINATION SERVICES" />
