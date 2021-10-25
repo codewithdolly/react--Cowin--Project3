@@ -14,12 +14,11 @@ const Header = () => {
 
   return (
     <div>
-      <div className="header sticky">
+      <div className="header">
         <div>
           <img src={Logo} alt="Covin logo" />
         </div>
         <div>
-          {" "}
           <Tabs
             value={value}
             onChange={handleChange}

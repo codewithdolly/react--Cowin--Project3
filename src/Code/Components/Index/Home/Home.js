@@ -1,12 +1,12 @@
 import React from "react";
 import "../Index.scss"
 import CallIcon from "@mui/icons-material/Call";
-import Image1 from "../../Images/1.png";
+import Image1 from "../../Images/v4.jpg";
 
 const Home = () => {
   return (
     <div>
-      <img src={Image1} alt="" width="100%" height="600px" />
+      <img src={Image1} alt="" width="100%" height="500px" />
       <div className="header">
         <h2>
           <CallIcon /> Support for COVID-19

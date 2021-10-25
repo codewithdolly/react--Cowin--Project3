@@ -24,7 +24,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function SingleCard() {
+export default function SingleCard4() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -48,24 +48,20 @@ export default function SingleCard() {
         />
         <CardContent>
           <Typography variant="p" color="text.secondary">
-            How To Book Your Appointment On CoWIN?
+            Citizen Registration and Appointment for Vaccination
           </Typography>
 
           <Typography variant="body2" color="text.secondary">
-            • Register for a vaccination session
+            <b>Login: </b> • Citizen logs in to cowin.gov.in
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            <b>Schedule Vaccine Appointment: </b> • Citizen schedules
+            appointment at the near by Vaccination center
           </Typography>
 
           <Typography variant="body2" color="text.secondary">
-            • Selection of Vaccination center of convenience based on the
-            vaccine name
-          </Typography>
-
-          <Typography variant="body2" color="text.secondary">
-            • Schedule vaccination as per slot availability at a Center
-          </Typography>
-
-          <Typography variant="body2" color="text.secondary">
-            • Cancel/Reschedule Vaccination
+            <b>Vaccination Completed : </b> • Citizen gets vaccinated at the
+            selected center on the... <br />
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -84,15 +80,13 @@ export default function SingleCard() {
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
             <Typography paragraph>
-              Co-WIN application is the digital back bone for the vaccination
-              drive in India. With scaling up of vaccination; the number of
-              vaccination facilities and sessions has to be increased and
-              managed effectively.
+              scheduled date after verification and Citizens schedules
+              appointment for dose 2 after 28 days
             </Typography>
             <Typography>
-              The CO-WIN application will facilitate the citizen with an option
-              to register and schedule the vaccination session online in Centers
-              of their choice
+              <b>Confirmation of appointment</b>
+              Citizen can download the appointment slip <br />
+              The appointment is also shared as SMS on registered mobile no.
             </Typography>
           </CardContent>
         </Collapse>

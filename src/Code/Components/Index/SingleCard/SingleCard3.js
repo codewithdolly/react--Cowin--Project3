@@ -24,7 +24,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function SingleCard() {
+export default function SingleCard3() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -36,9 +36,9 @@ export default function SingleCard() {
       <Card sx={{ maxWidth: 350, backgroundColor: "" }}>
         <CardHeader
           action={<IconButton aria-label="settings"></IconButton>}
-          title="Book an Appointment On
-        CoWIN or Walk Into Any
-        Vaccination Center"
+          title="Download Your Vaccination
+          Certificate from CoWIN
+          and Wait for Dose #2"
         />
         <CardMedia
           component="img"
@@ -48,24 +48,11 @@ export default function SingleCard() {
         />
         <CardContent>
           <Typography variant="p" color="text.secondary">
-            How To Book Your Appointment On CoWIN?
+          • This new feature allows fully vaccinated citizens to update existing photo identity to passport number and date of birth to get International Travel Certificate.
           </Typography>
 
           <Typography variant="body2" color="text.secondary">
-            • Register for a vaccination session
-          </Typography>
-
-          <Typography variant="body2" color="text.secondary">
-            • Selection of Vaccination center of convenience based on the
-            vaccine name
-          </Typography>
-
-          <Typography variant="body2" color="text.secondary">
-            • Schedule vaccination as per slot availability at a Center
-          </Typography>
-
-          <Typography variant="body2" color="text.secondary">
-            • Cancel/Reschedule Vaccination
+          • Covid Vaccination Certificate download: Corona Vaccination is being organized on a big scale in the country and millions of people are getting vaccinated every day.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -83,16 +70,9 @@ export default function SingleCard() {
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
+            <Typography>• get Vaccine Certificate Correction link.</Typography>
             <Typography paragraph>
-              Co-WIN application is the digital back bone for the vaccination
-              drive in India. With scaling up of vaccination; the number of
-              vaccination facilities and sessions has to be increased and
-              managed effectively.
-            </Typography>
-            <Typography>
-              The CO-WIN application will facilitate the citizen with an option
-              to register and schedule the vaccination session online in Centers
-              of their choice
+            www.cowin.gov.in is the official website for the vaccination in India. The website can be used for various purposes but on this page we will only discuss the vaccine certificate download process. Here are some easy steps to lead you through the certificate download process.
             </Typography>
           </CardContent>
         </Collapse>

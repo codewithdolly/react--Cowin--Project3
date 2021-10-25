@@ -17,5 +17,6 @@ function SearchByMap() {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyAXuXLvhNUOlQ3FcQCTdDJAN7iOnflyfUA",
+  // apiKey: "AIzaSyAXuXLvhNUOlQ3FcQCTdDJAN7iOnflyfUA",
 })(SearchByMap);
+

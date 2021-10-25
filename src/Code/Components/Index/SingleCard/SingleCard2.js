@@ -24,7 +24,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function SingleCard() {
+export default function SingleCard2() {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -36,9 +36,9 @@ export default function SingleCard() {
       <Card sx={{ maxWidth: 350, backgroundColor: "" }}>
         <CardHeader
           action={<IconButton aria-label="settings"></IconButton>}
-          title="Book an Appointment On
-        CoWIN or Walk Into Any
-        Vaccination Center"
+          title="         Get Your Vaccination
+          Safely at the Time of Your
+          Appointment"
         />
         <CardMedia
           component="img"
@@ -48,24 +48,19 @@ export default function SingleCard() {
         />
         <CardContent>
           <Typography variant="p" color="text.secondary">
-            How To Book Your Appointment On CoWIN?
+            Dos And Dont's For Getting Vaccinated
           </Typography>
 
           <Typography variant="body2" color="text.secondary">
-            • Register for a vaccination session
+            <b>Do:</b>Register and schedule your vaccination in advance
+            <br /> <b>Doesn't: </b>Walk-in without appointment 
           </Typography>
 
           <Typography variant="body2" color="text.secondary">
-            • Selection of Vaccination center of convenience based on the
-            vaccine name
-          </Typography>
-
-          <Typography variant="body2" color="text.secondary">
-            • Schedule vaccination as per slot availability at a Center
-          </Typography>
-
-          <Typography variant="body2" color="text.secondary">
-            • Cancel/Reschedule Vaccination
+            <b>Do:</b>Register online through Co-WIN OR Aarogya
+Setu OR UMANG platform
+            <br /> <b>Doesn't: </b>WOne-person register in
+multiple platforms
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -83,17 +78,22 @@ export default function SingleCard() {
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>
-              Co-WIN application is the digital back bone for the vaccination
-              drive in India. With scaling up of vaccination; the number of
-              vaccination facilities and sessions has to be increased and
-              managed effectively.
-            </Typography>
-            <Typography>
-              The CO-WIN application will facilitate the citizen with an option
-              to register and schedule the vaccination session online in Centers
-              of their choice
-            </Typography>
+          <Typography variant="body2" color="text.secondary">
+            <b>Do:</b>To receive Health ID as part of registration for
+vaccination, give your consent
+            <br /> <b>Doesn't: </b>Register again for second
+dose
+
+          </Typography>
+          <br />
+           <Typography variant="body2" color="text.secondary">
+            <b>Do:</b>Carry ID proof when you go for vaccination
+
+            <br /> <b>Doesn't: </b>Consume alcohol or other
+intoxicants on the day of
+vaccination
+          </Typography>
+          <br />
           </CardContent>
         </Collapse>
       </Card>

@@ -6,7 +6,7 @@ import { Button } from "@mui/material";
 
 function PostMethod() {
   const hospitalAPI =
-    "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=581&date=23-10-2021";
+    "https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=581&date=31-03-2021";
   const [post, setPost] = useState([]);
 
   useEffect(() => {
