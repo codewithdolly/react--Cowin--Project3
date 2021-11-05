@@ -6,12 +6,12 @@ import PostMethos from './Code/Components/AccessFromAPI/PostMethod/PostMethod';
 
 const App=()=> {
   return (
-   <div> 
+   <> 
       <Index />
       {/* <GetMethod /> */}
       {/* <PostMethos /> */}
 
-    </div>
+    </>
   )
 }
 

@@ -5,7 +5,7 @@ import Image1 from "../../Images/v4.jpg";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <img src={Image1} alt="" width="100%" height="500px" />
       <div className="header">
         <h2>
@@ -35,7 +35,7 @@ const Home = () => {
           <p>7827170170</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

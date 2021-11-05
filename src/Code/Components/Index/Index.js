@@ -13,7 +13,7 @@ import SingleCard4 from "./SingleCard/SingleCard4";
 
 function Index() {
   return (
-    <div>
+    <>
       <Header />
       <Home />
       <SearchCenter />
@@ -26,7 +26,7 @@ function Index() {
       </div>
       <CoWINPartners />
       <Footer />
-    </div>
+    </>
   );
 }
 

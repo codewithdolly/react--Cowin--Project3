@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer=()=> {
     return (
-        <div>
+        <>
         <div className="footer">
             <div className="footerRows">
             <h3>Vaccination Services</h3> 
@@ -51,7 +51,7 @@ const Footer=()=> {
         <div className="copyright">Copyright © 2021 CoWIN(cloneByDolly). All Rights Reserved</div>
         <hr />
 
-        </div>
+        </>
     )
 }
 

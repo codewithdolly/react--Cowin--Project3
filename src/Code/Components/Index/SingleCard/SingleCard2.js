@@ -10,7 +10,6 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import ShareIcon from "@mui/icons-material/Share";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import Image1 from "../../Images/vaccinated_img2.png";
 
 const ExpandMore = styled((props) => {
@@ -53,14 +52,14 @@ export default function SingleCard2() {
 
           <Typography variant="body2" color="text.secondary">
             <b>Do:</b>Register and schedule your vaccination in advance
-            <br /> <b>Doesn't: </b>Walk-in without appointment 
+            <br /> <b>Doesn't: </b>Walk-in without appointment
           </Typography>
 
           <Typography variant="body2" color="text.secondary">
             <b>Do:</b>Register online through Co-WIN OR Aarogya
-Setu OR UMANG platform
+            Setu OR UMANG platform
             <br /> <b>Doesn't: </b>WOne-person register in
-multiple platforms
+            multiple platforms
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -78,22 +77,22 @@ multiple platforms
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            <b>Do:</b>To receive Health ID as part of registration for
-vaccination, give your consent
-            <br /> <b>Doesn't: </b>Register again for second
-dose
+            <Typography variant="body2" color="text.secondary">
+              <b>Do:</b>To receive Health ID as part of registration for
+              vaccination, give your consent
+              <br /> <b>Doesn't: </b>Register again for second
+              dose
 
-          </Typography>
-          <br />
-           <Typography variant="body2" color="text.secondary">
-            <b>Do:</b>Carry ID proof when you go for vaccination
+            </Typography>
+            <br />
+            <Typography variant="body2" color="text.secondary">
+              <b>Do:</b>Carry ID proof when you go for vaccination
 
-            <br /> <b>Doesn't: </b>Consume alcohol or other
-intoxicants on the day of
-vaccination
-          </Typography>
-          <br />
+              <br /> <b>Doesn't: </b>Consume alcohol or other
+              intoxicants on the day of
+              vaccination
+            </Typography>
+            <br />
           </CardContent>
         </Collapse>
       </Card>

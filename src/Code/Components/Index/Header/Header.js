@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <>
       <div className="header">
         <div>
           <img src={Logo} alt="Covin logo" />
@@ -39,7 +39,7 @@ const Header = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default Header;

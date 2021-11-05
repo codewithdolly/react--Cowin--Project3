@@ -9,7 +9,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 function Vaccination() {
   return (
-    <div>
+    <>
       <div className="vaccination">
         <center>
           <h1 className="VaccinesDelivered">
@@ -68,7 +68,7 @@ function Vaccination() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

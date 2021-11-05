@@ -7,7 +7,7 @@ import img4 from "../../Images/p4.png";
 
 const CoWINPartners = () => {
   return (
-    <div>
+    <>
       <div className="partnership">
         <h2 className=" partnership--header">Our Partners</h2>
         <img src={img1} alt="" className="img2" />
@@ -15,7 +15,7 @@ const CoWINPartners = () => {
         <img src={img3} alt="" className="img2" />
         <img src={img4} alt="" className="img2" />
       </div>
-    </div>
+    </>
   );
 };
 
