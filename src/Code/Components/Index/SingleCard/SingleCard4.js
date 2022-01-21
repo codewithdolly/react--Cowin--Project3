@@ -10,7 +10,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import ShareIcon from "@mui/icons-material/Share";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Image1 from "../../Images/vaccinated_img2.png";
+import Image1 from "../../Images/v4.jpg";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;

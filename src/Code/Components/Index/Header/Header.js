@@ -29,7 +29,7 @@ const Header = () => {
             <Tab value="one" label="VACCINATION SERVICES" />
             <Tab value="two" label="PLATFORMS" />
             <Tab value="three" label="RESOURCES" />
-            <Tab value="four" label="SUPPORT" />
+            <Tab value="four" label="SUPPORT"  />
           </Tabs>
         </div>
 
