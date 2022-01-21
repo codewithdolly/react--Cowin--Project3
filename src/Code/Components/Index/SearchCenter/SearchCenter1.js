@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Typography } from "@mui/material";
-import { padding } from "@mui/system";
 
 export default function SearchCenter1() {
   return (

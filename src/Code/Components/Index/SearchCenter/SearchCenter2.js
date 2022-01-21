@@ -48,9 +48,6 @@ const SearchCenter2 = () => {
     setValue(newValue);
   };
 
-  const handleChangeIndex = (index) => {
-    setValue(index);
-  };
 
   return (
     <Box
@@ -84,7 +81,7 @@ const SearchCenter2 = () => {
         </TabPanel>
         <TabPanel value={value} index={2}>
           <iframe src="https://www.google.com/maps/@17.4123487,78.4080455,11z" frameborder="0"  width="700"
-            height="400" allowfullscreen=""></iframe>
+            height="400" allowfullscreen="" title="map"></iframe>
             {/* <SearchByMap /> */}
         </TabPanel>
       </div>
