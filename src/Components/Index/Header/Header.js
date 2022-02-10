@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import "../Index.scss";
 import "./Header.scss";
-import { BrowserRouter, Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import { Button } from "@mui/material";
